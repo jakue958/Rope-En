@@ -12,12 +12,7 @@ let waterLevel;
 let dropTargetY;
 let margin;
 
-let poem = `And then you appeared. And then I fell in love with you.
-My emotions hadn’t fluctuated that wildly in a long time. I realized I didn’t need high scores or a lot of money to feel joyful every day. The feelings I had spent so long chasing — you could give them to me with a single hug. So this is what it feels like to be cared for. So this is what it feels like to be missed. How can people hug each other every single day? Why me? How am I worthy of your love?
-I accept your care cautiously, and cautiously test how bold I’m allowed to be. You hold my hand without saying anything, watching me fold your fingers one by one and open them again. You bury your head against my chest, and suddenly my heart feels like waves crashing inside me. When you kiss my cheek somewhere dark, my ears turn red enough to cosplay the sun.
-I still have so many serious things to do this month — preparing for exams, working on my portfolio, taking tests in June, sending résumés, internships. I’m scared. Scared of the unknown, and of all the things that slip through my fingers no matter how hard I try to hold on to them.
-And then I think of your face.
-In your bright eyes, I can see myself reflected there. Suddenly, everything feels a little less frightening. You’re already beside me — what else is there to fear? All that’s left is to quietly prepare for each thing ahead of me, and then come to you afterward for praise and hugs.`;
+let poem = `我几乎讨厌这世界的大部分。我有时候分不清梦境和现实，我以为只要我获得了世俗的成功就会快乐，便把自己放在紧张的备考日程里，为了降低我感到快乐的阈值。可是那样的喜悦相当短暂。然后你出现了，然后我爱上你。心情很久不那样大幅地波动了。原来不需要考高分赚大钱也可以每天都那样喜悦，原来我努力很久想要得到的情绪你给我一个拥抱就可以了。原来被人关心是这种感觉，被惦记是这种感觉。人怎么可以每天都抱抱呢。我为什么，我何德何能获得你的爱呢。我小心翼翼地接受你的关怀，小心翼翼地试探我可以大胆到什么程度。你握住我的手，你也没说话，看着我把你的手指一根根折起来又摊开。你把脑袋埋在我胸前，我心里就一阵波涛翻涌。你在黑暗的地方亲吻我的脸颊，我就觉得耳朵红得可以cos太阳。我这个月要做的事很多啊，备考，准备就业作品集，六月份要考试，投简历，见习。我很害怕，害怕未知的一切和那些伸手抓不住的东西。这时候我抬头想起你的脸，你明媚的眼睛里映出一个我。突然觉得也没那么可怕。你已经在我身边了，我还有什么可畏惧的？剩下的就是安心准备每件事情，最后找你要夸奖和抱抱。`;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
